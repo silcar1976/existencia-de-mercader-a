@@ -7,10 +7,10 @@ La página** "Gestión de Ventas" ** es una herramienta interactiva diseñada pa
 ###### Registro de Ventas:
 Permite registrar las ventas diarias seleccionando productos y especificando la cantidad vendida.
 
-###### ##### Tabla de Ventas: 
+###### Tabla de Ventas: 
 Muestra un historial de las ventas registradas.
 
-###### Inventario: 
+##### Inventario: 
 Proporciona una vista actualizada del inventario con las cantidades de los productos disponibles.
 
 #### Uso
