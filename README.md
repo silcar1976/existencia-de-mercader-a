@@ -1,7 +1,7 @@
 Readme gestión de ventas
 # Gestión de Ventas
 ##### Descripción
-La página** "Gestión de Ventas" ** es una herramienta interactiva diseñada para gestionar las ventas diarias de productos. Permite a los usuarios registrar ventas, ver el historial de ventas y revisar el inventario actualizado.
+La página "Gestión de Ventas"  es una herramienta interactiva diseñada para gestionar las ventas diarias de productos. Permite a los usuarios registrar ventas, ver el historial de ventas y revisar el inventario actualizado.
 
 ##### Características
 ###### Registro de Ventas:
