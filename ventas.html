@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Ventas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header><h1>Gestión de Ventas Diaria</h1></header>
+        <div>
+            <select id="sale-product-description">
+                <!-- Los productos disponibles aparecerán aquí -->
+            </select>
+            <input type="number" id="sale-quantity" placeholder="Cantidad vendida" min="1" oninput="validity.valid||(value='');">
+
+            <button onclick="addSale()">Registrar Venta</button>
+        </div>
+        <table id="sales-table">
+            <thead>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Cantidad Vendida</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div>
+            <h2>Total de Existencias</h2>
+            <table id="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <button onclick="location.href='EmmaLu.html'">Ir a Existencia de Mercaderia</button>
+        <script src="ventas.js"></script>
+    </main>
+    <footer>
+        <p>2024 Mi Sitio web</p>
+        <p>Sígueme en <a href="https://www.nasa.gov/" target="_blank">nasa</a></p>
+    </footer>
+</body>
+</html>
